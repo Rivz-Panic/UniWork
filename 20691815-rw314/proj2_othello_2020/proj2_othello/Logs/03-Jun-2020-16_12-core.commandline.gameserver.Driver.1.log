@@ -1,0 +1,1084 @@
+00:00  INFO: GameServer commandline script started
+00:00  INFO: GameServer launched on port 61234
+00:02  INFO: Accepted new connection from /127.0.0.1
+00:02  INFO: Waiting for player name...
+00:02  INFO: Received player name: LobbyHoster_988.1461904904246_1591193569584
+00:02  INFO: Connection to client /127.0.0.1 with name LobbyHoster_988.1461904904246_1591193569584 established
+00:02  INFO: Match received, created lobby mylobby
+00:02  INFO: Now closing connection to /127.0.0.1
+00:02  INFO: Removed player name LobbyHoster_988.1461904904246_1591193569584
+00:02  INFO: Accepted new connection from /127.0.0.1
+00:02  INFO: Waiting for player name...
+00:02  INFO: Received player name: foo
+00:02  INFO: Connection to client /127.0.0.1 with name foo established
+00:02  INFO: Accepted new connection from /127.0.0.1
+00:02  INFO: Waiting for player name...
+00:02  INFO: Received player name: bar
+00:02  INFO: Connection to client /127.0.0.1 with name bar established
+00:02  INFO: Player 0 joined lobby, initiating handshake
+00:02  INFO: Player name for id 0: foo
+00:02  INFO: The number of engines has just been increased to : 1
+00:02  INFO: Removed player name foo
+00:02  INFO: Player 1 joined lobby, initiating handshake
+00:02  INFO: Player name for id 1: bar
+00:02  INFO: The number of engines has just been increased to : 2
+00:02  INFO: Starting game
+00:02  INFO: Removed lobby with name mylobby
+00:02  INFO: Removed player name foo
+00:02  INFO: Removed player name bar
+00:03  INFO: Registering referee "za.ac.sun.cs.ingenious.games.loa.LOAController" as "LOAController"
+00:03  INFO: Registering referee "za.ac.sun.cs.ingenious.games.mnk.MNKReferee" as "MNKReferee"
+00:03  INFO: Registering referee "za.ac.sun.cs.ingenious.games.tictactoe.TTTReferee" as "TTTReferee"
+00:03  INFO: Registering referee "za.ac.sun.cs.ingenious.games.cardGames.uno.game.UnoReferee" as "UnoReferee"
+00:03  INFO: Registering referee "za.ac.sun.cs.ingenious.games.cardGames.hearts.game.HeartsReferee" as "HeartsReferee"
+00:03  INFO: Registering referee "za.ac.sun.cs.ingenious.games.domineering.DomineeringReferee" as "DomineeringReferee"
+00:03  INFO: Registering referee "za.ac.sun.cs.ingenious.games.othello.OthelloReferee" as "OthelloReferee"
+00:03  INFO: Registering referee "za.ac.sun.cs.ingenious.games.bomberman.BMReferee" as "BMReferee"
+00:03  INFO: Removed player name bar
+00:03  INFO: ===================
+00:03  INFO: Starting OthelloReferee
+00:03  INFO: ===================
+00:03  INFO: Game state is now:
+00:03  INFO: 
+Black Score: 4
+White Score: 1
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|********
+2|***0****
+3|***00***
+4|***01***
+5|********
+6|********
+7|********
+
+00:03  INFO: Game state is now:
+00:03  INFO: 
+Black Score: 3
+White Score: 3
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|********
+2|***0****
+3|***00***
+4|**111***
+5|********
+6|********
+7|********
+
+00:03  INFO: Game state is now:
+00:03  INFO: 
+Black Score: 5
+White Score: 2
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|********
+2|***0****
+3|***00***
+4|**011***
+5|*0******
+6|********
+7|********
+
+00:03  INFO: Game state is now:
+00:03  INFO: 
+Black Score: 3
+White Score: 5
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10***
+4|**011***
+5|*0******
+6|********
+7|********
+
+00:03  INFO: Game state is now:
+00:03  INFO: 
+Black Score: 5
+White Score: 4
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10***
+4|**010***
+5|*0**0***
+6|********
+7|********
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 4
+White Score: 6
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10***
+4|**010***
+5|*0**1***
+6|*****1**
+7|********
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 6
+White Score: 5
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10***
+4|**010***
+5|*0**0***
+6|****01**
+7|********
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 5
+White Score: 7
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10***
+4|**010***
+5|*0**0***
+6|***111**
+7|********
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 7
+White Score: 6
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10***
+4|**010***
+5|*0**0***
+6|***011**
+7|**0*****
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 6
+White Score: 8
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10***
+4|**011***
+5|*0**01**
+6|***011**
+7|**0*****
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 8
+White Score: 7
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10***
+4|**011***
+5|*0**000*
+6|***011**
+7|**0*****
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 7
+White Score: 9
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10***
+4|**011*1*
+5|*0**010*
+6|***011**
+7|**0*****
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 9
+White Score: 8
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***1****
+3|***10*0*
+4|**011*0*
+5|*0**010*
+6|***011**
+7|**0*****
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 8
+White Score: 10
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|***11*0*
+4|**011*0*
+5|*0**010*
+6|***011**
+7|**0*****
+
+00:04  INFO: Game state is now:
+00:04  INFO: 
+Black Score: 11
+White Score: 8
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|***11*0*
+4|**011*0*
+5|*0**010*
+6|***0000*
+7|**0*****
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 10
+White Score: 10
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|***11*0*
+4|**011*0*
+5|*0**010*
+6|***0100*
+7|**01****
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 13
+White Score: 8
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|***11*0*
+4|**011*0*
+5|*0**010*
+6|***0000*
+7|**000***
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 12
+White Score: 10
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|***11*0*
+4|**011*0*
+5|*0**010*
+6|***0010*
+7|**0001**
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 15
+White Score: 8
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|***11*0*
+4|**011*0*
+5|*0**010*
+6|***0000*
+7|**00000*
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 14
+White Score: 10
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|***11*0*
+4|*1111*0*
+5|*0**010*
+6|***0000*
+7|**00000*
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 16
+White Score: 9
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11*0*
+4|*0111*0*
+5|*0**010*
+6|***0000*
+7|**00000*
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 15
+White Score: 11
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11*0*
+4|*0111*0*
+5|*1**010*
+6|1**0000*
+7|**00000*
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 17
+White Score: 10
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11*0*
+4|*0111*0*
+5|*0**010*
+6|10*0000*
+7|**00000*
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 16
+White Score: 12
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11*0*
+4|*0111*0*
+5|*0**010*
+6|1110000*
+7|**00000*
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 18
+White Score: 11
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11*0*
+4|*0111*0*
+5|00**010*
+6|1010000*
+7|**00000*
+
+00:05  INFO: Game state is now:
+00:05  INFO: 
+Black Score: 14
+White Score: 16
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11*0*
+4|*0111*0*
+5|00**010*
+6|10111111
+7|**00000*
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 17
+White Score: 14
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11*0*
+4|*0111*0*
+5|000*010*
+6|10001111
+7|**00000*
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 16
+White Score: 16
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11*01
+4|*0111*1*
+5|000*010*
+6|10001111
+7|**00000*
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 18
+White Score: 15
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11*01
+4|*0111*1*
+5|000*0100
+6|10001101
+7|**00000*
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 17
+White Score: 17
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***1****
+2|***11***
+3|*0*11111
+4|*0111*1*
+5|000*0100
+6|10001101
+7|**00000*
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 21
+White Score: 14
+Next player: white
+Board:
+ |01234567
+----------
+0|********
+1|***10***
+2|***10***
+3|*0*10111
+4|*0110*1*
+5|000*0100
+6|10001101
+7|**00000*
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 20
+White Score: 16
+Next player: black
+Board:
+ |01234567
+----------
+0|********
+1|***10***
+2|***10***
+3|*0*10111
+4|*0110*1*
+5|000*0100
+6|10001111
+7|**000001
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 22
+White Score: 15
+Next player: white
+Board:
+ |01234567
+----------
+0|**0*****
+1|***00***
+2|***10***
+3|*0*10111
+4|*0110*1*
+5|000*0100
+6|10001111
+7|**000001
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 20
+White Score: 18
+Next player: black
+Board:
+ |01234567
+----------
+0|**0*****
+1|***00***
+2|***10***
+3|*0*10111
+4|*0111*1*
+5|00011100
+6|10001111
+7|**000001
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 22
+White Score: 17
+Next player: white
+Board:
+ |01234567
+----------
+0|**0*****
+1|**000***
+2|***00***
+3|*0*10111
+4|*0111*1*
+5|00011100
+6|10001111
+7|**000001
+
+00:06  INFO: Game state is now:
+00:06  INFO: 
+Black Score: 20
+White Score: 20
+Next player: black
+Board:
+ |01234567
+----------
+0|**0*****
+1|**000***
+2|***00***
+3|*0*10111
+4|11111*1*
+5|10011100
+6|10001111
+7|**000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 22
+White Score: 19
+Next player: white
+Board:
+ |01234567
+----------
+0|**0*****
+1|**000***
+2|***00***
+3|00*10111
+4|10111*1*
+5|10011100
+6|10001111
+7|**000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 20
+White Score: 22
+Next player: black
+Board:
+ |01234567
+----------
+0|**01****
+1|**010***
+2|***10***
+3|00*10111
+4|10111*1*
+5|10011100
+6|10001111
+7|**000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 22
+White Score: 21
+Next player: white
+Board:
+ |01234567
+----------
+0|**000***
+1|**010***
+2|***10***
+3|00*10111
+4|10111*1*
+5|10011100
+6|10001111
+7|**000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 20
+White Score: 24
+Next player: black
+Board:
+ |01234567
+----------
+0|**000***
+1|**010***
+2|***10***
+3|00*10111
+4|10111*11
+5|10011111
+6|10001111
+7|**000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 23
+White Score: 22
+Next player: white
+Board:
+ |01234567
+----------
+0|**000***
+1|**000***
+2|**000***
+3|00*10111
+4|10111*11
+5|10011111
+6|10001111
+7|**000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 21
+White Score: 25
+Next player: black
+Board:
+ |01234567
+----------
+0|**000***
+1|**000***
+2|**000***
+3|00*10111
+4|10111*11
+5|10111111
+6|11001111
+7|1*000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 28
+White Score: 19
+Next player: white
+Board:
+ |01234567
+----------
+0|**000***
+1|**000***
+2|**000***
+3|00000111
+4|10001*11
+5|10010111
+6|11001011
+7|1*000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 24
+White Score: 24
+Next player: black
+Board:
+ |01234567
+----------
+0|**0001**
+1|**001***
+2|**010***
+3|00100111
+4|11001*11
+5|10010111
+6|11001011
+7|1*000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 26
+White Score: 23
+Next player: white
+Board:
+ |01234567
+----------
+0|**00000*
+1|**001***
+2|**010***
+3|00100111
+4|11001*11
+5|10010111
+6|11001011
+7|1*000001
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 20
+White Score: 30
+Next player: black
+Board:
+ |01234567
+----------
+0|**00000*
+1|**001***
+2|**010***
+3|00100111
+4|11001*11
+5|10010111
+6|11101011
+7|11111111
+
+00:07  INFO: Game state is now:
+00:07  INFO: 
+Black Score: 22
+White Score: 29
+Next player: white
+Board:
+ |01234567
+----------
+0|**00000*
+1|**0000**
+2|**010***
+3|00100111
+4|11001*11
+5|10010111
+6|11101011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 19
+White Score: 33
+Next player: black
+Board:
+ |01234567
+----------
+0|**00000*
+1|**0000**
+2|**010***
+3|00101111
+4|11001111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 21
+White Score: 32
+Next player: white
+Board:
+ |01234567
+----------
+0|**00000*
+1|**0000**
+2|*0010***
+3|00001111
+4|11001111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 20
+White Score: 34
+Next player: black
+Board:
+ |01234567
+----------
+0|**00000*
+1|**0000**
+2|*00111**
+3|00001111
+4|11001111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 24
+White Score: 31
+Next player: white
+Board:
+ |01234567
+----------
+0|**00000*
+1|**0000**
+2|*000000*
+3|00001111
+4|11001111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 21
+White Score: 35
+Next player: black
+Board:
+ |01234567
+----------
+0|**00000*
+1|**0000**
+2|1000000*
+3|11001111
+4|11101111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 21
+White Score: 35
+Next player: white
+Board:
+ |01234567
+----------
+0|**00000*
+1|**0000**
+2|1000000*
+3|11001111
+4|11101111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 19
+White Score: 38
+Next player: black
+Board:
+ |01234567
+----------
+0|*100000*
+1|**1000**
+2|1001000*
+3|11001111
+4|11101111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 21
+White Score: 37
+Next player: white
+Board:
+ |01234567
+----------
+0|0000000*
+1|**1000**
+2|1001000*
+3|11001111
+4|11101111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 18
+White Score: 41
+Next player: black
+Board:
+ |01234567
+----------
+0|0000000*
+1|1*1000**
+2|1101000*
+3|11101111
+4|11111111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 23
+White Score: 37
+Next player: white
+Board:
+ |01234567
+----------
+0|0000000*
+1|100000**
+2|1001000*
+3|10101111
+4|10111111
+5|10011111
+6|11111011
+7|11111111
+
+00:08  INFO: Game state is now:
+00:08  INFO: 
+Black Score: 16
+White Score: 45
+Next player: black
+Board:
+ |01234567
+----------
+0|0000000*
+1|1111111*
+2|1001011*
+3|10101111
+4|10111111
+5|10011111
+6|11111011
+7|11111111
+
+00:09  INFO: Game state is now:
+00:09  INFO: 
+Black Score: 21
+White Score: 41
+Next player: white
+Board:
+ |01234567
+----------
+0|00000000
+1|1111110*
+2|1001001*
+3|10100111
+4|10101111
+5|10011111
+6|11111011
+7|11111111
+
+00:09  INFO: Game state is now:
+00:09  INFO: 
+Black Score: 20
+White Score: 43
+Next player: black
+Board:
+ |01234567
+----------
+0|00000000
+1|11111111
+2|1001001*
+3|10100111
+4|10101111
+5|10011111
+6|11111011
+7|11111111
+
+00:09  INFO: Game state is now:
+00:09  INFO: 
+Black Score: 24
+White Score: 40
+Next player: white
+Board:
+ |01234567
+----------
+0|00000000
+1|11111100
+2|10010000
+3|10100111
+4|10101111
+5|10011111
+6|11111011
+7|11111111
+
+00:09  INFO: Game has terminated!
+00:09  INFO: Final scores:
+00:09  INFO: Player 0 (foo): 24.0
+00:09  INFO: Player 1 (bar): 40.0
+00:09  INFO: ========================
+00:09  INFO: Shutting down OthelloReferee
+00:09  INFO: ========================

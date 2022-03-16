@@ -1,0 +1,10 @@
+Processes P1 P2
+Resources R1 R2
+
+Process P1
+req R1
+rel R1
+
+Process P2
+req R2
+rel R2

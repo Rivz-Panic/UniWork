@@ -1,0 +1,8 @@
+deposit 0 100
+deposit 0 200
+deposit 0 300
+withdrawal 0 200
+withdrawal 0 100
+withdrawal 0 50
+transfer 1 0 200
+balance 0
