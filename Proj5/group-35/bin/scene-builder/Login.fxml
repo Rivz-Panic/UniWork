@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #444444;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginGUI">
+   <children>
+      <Pane layoutX="234.0" layoutY="88.0" prefHeight="422.0" prefWidth="433.0" style="-fx-background-color: #000000; -fx-border-radius: 10 10 10 10; -fx-background-radius: 10 10 10 10;">
+         <effect>
+            <DropShadow color="#222222" offsetX="1.0" offsetY="1.0" />
+         </effect>
+         <children>
+            <Label layoutX="181.0" layoutY="26.0" text="CD --" textFill="#fcfcfc">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="110.0" text="Server IP:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="182.0" text="Port:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="258.0" text="Name:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txfUsername" layoutX="217.0" layoutY="258.0" onKeyPressed="#enter" prefHeight="30.0" prefWidth="163.0" promptText="Username" />
+            <TextField fx:id="txfIP" layoutX="217.0" layoutY="110.0" prefHeight="30.0" prefWidth="163.0" promptText="localhost" />
+            <TextField fx:id="txfPort" layoutX="217.0" layoutY="182.0" prefHeight="30.0" prefWidth="163.0" promptText="1234" />
+            <Button fx:id="btnLogin" layoutX="164.0" layoutY="337.0" mnemonicParsing="false" onAction="#login" prefHeight="37.0" prefWidth="93.0" text="Login">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
